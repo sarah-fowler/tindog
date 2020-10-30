@@ -155,5 +155,10 @@ h1, h2, h3, h4, h5, h6 {
     transform: none;
     margin-top: 7%;
   }
-
+  body {
+    font-size: 1.5rem;
+  }
+  .nav-link, .navbar-toggler {
+    font-size: 1.5rem;
+  }
 }
