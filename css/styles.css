@@ -51,8 +51,15 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .nav-link {
-  font-weight: 100;
   font-size: 1.2rem;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+  color: rgb(255 255 255 / 85%);
+}
+
+.navbar-dark .navbar-toggler {
+  border-color: rgba(255,255,255,.85);
 }
 
 /* Title Section */
@@ -148,4 +155,5 @@ h1, h2, h3, h4, h5, h6 {
     transform: none;
     margin-top: 7%;
   }
+
 }
